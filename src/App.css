@@ -1,0 +1,9 @@
+* {
+  font-family: "Poppins", sans-serif;
+  
+}
+
+
+#carousel{
+  transition: all 0.3s ease-in-out;
+}
