@@ -35,6 +35,7 @@ function About() {
   const leftImages = [Gallery4, Gallery2, Gallery3];
   const rightImages = [Gallery4, Gallery2, Gallery3];
   const bottomImages = [Gallery4, Gallery2, Gallery3];
+  
 
   return (
     <div>
@@ -51,6 +52,7 @@ function About() {
           leftArray={leftImages}
           rightArray={rightImages}
           bottomArray={bottomImages}
+          
         />
       </div>
       <div className=" sm:mt-[80rem] mt-[40rem]">
