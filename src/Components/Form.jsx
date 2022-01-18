@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import DropDownForms from "./DropDownForms";
 import TextInput from "./TextInput";
 
 function Form() {
+  const [agreeToTC, setAgreeToTC] = useState(false);
   const options = {
     employmentOptions: [
       "Yes (Full time)",
@@ -47,6 +48,22 @@ function Form() {
             title={"Which cohort would you like to join?"}
             optionArray={options.cohortOptions}
           />
+        </div>
+
+        <div className="flex  items-center justify-center my-16">
+          <div
+            onClick={() => {
+              setAgreeToTC(!agreeToTC);
+            }}
+            className={
+              !agreeToTC
+                ? "w-8 h-8 border border-gray mr-4 rounded-sm"
+                : "w-8 h-8 bg-[#7CFC00] mr-4 rounded-sm"
+            }
+          >
+            &nbsp;
+          </div>
+          <h1>I agree to the terms and conditions of this training</h1>
         </div>
       </form>
     </div>

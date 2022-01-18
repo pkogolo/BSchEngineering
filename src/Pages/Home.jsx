@@ -50,7 +50,8 @@ function Home() {
     "AutoCAD / Civil 3D / BIM",
     "Leica station",
     "Understanding Reinforcements",
-    "Surveying",]
+    "Surveying",
+  ];
 
   return (
     <div>
@@ -94,7 +95,7 @@ function Home() {
 
       <StaggeredGrid />
 
-      <Button text="Join our Next Cohort" />
+      <Button text="Join our Next Cohort" link={"/register"} />
     </div>
   );
 }

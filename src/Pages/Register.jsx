@@ -34,6 +34,8 @@ function Register() {
         Registration Form
       </h1>
       <Form />
+
+      <Button text="Proceed to Payment"  />
     </div>
   );
 }
