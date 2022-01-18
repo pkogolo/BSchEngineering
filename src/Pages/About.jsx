@@ -1,7 +1,6 @@
 import React from "react";
 import Button from "../Components/Button";
 import Header from "../Components/Header";
-
 import TitleContentBox from "../Components/TitleContentBox";
 import Gallery1 from "../images/galleryImages/gallery4.jpeg";
 import Gallery3 from "../images/galleryImages/gallery2.jpg";

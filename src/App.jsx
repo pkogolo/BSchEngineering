@@ -7,6 +7,7 @@ import ClosureImage from "./Components/ClosureImage";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Admissions from "./Pages/Admissions";
 import Curriculum from "./Pages/Curriculum";
+import Register from "./Pages/Register";
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
             </Route>
             <Route path="/curriculum" exact>
               <Curriculum />
+            </Route>
+            <Route path="/register" exact>
+              <Register />
             </Route>
           </Switch>
           <ClosureImage />

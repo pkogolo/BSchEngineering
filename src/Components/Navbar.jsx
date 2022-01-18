@@ -32,7 +32,7 @@ function Navbar() {
         <ul className=" flex items-center py-4 justify-around  text-2xl w-3/4">
           <NavLink to="/admissions">Admissions</NavLink>
           <NavLink to="/about">About</NavLink>
-          <NavLink to="/">Enrol now</NavLink>
+          <NavLink to="/register">Register</NavLink>
           <NavLink to="/">Login</NavLink>
         </ul>
       </div>
@@ -86,9 +86,9 @@ function Navbar() {
               setOpen(false);
             }}
             className="text-3xl text-black border-b border-gray-200 py-4 "
-            to="/"
+            to="/register"
           >
-            Enrol now
+            Register
           </NavLink>
           <NavLink
             onClick={() => {
