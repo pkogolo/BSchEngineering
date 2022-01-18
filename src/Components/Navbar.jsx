@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import Logo from "./Logo";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
+  const location = useLocation();
   const variants = {
     open: { opacity: 1, y: 0 },
     closed: { opacity: 0, y: "-100%" },
@@ -13,6 +14,15 @@ function Navbar() {
   const openNav = () => {
     setOpen(!open);
   };
+
+  const getPath = () => {
+    if (location.pathname == "/") {
+      return <span>Home</span>;
+    } else {
+      return <span className=" text-center">{location.pathname.substring(1).toUpperCase()}</span>;
+    }
+  };
+
   return (
     <div>
       <div className=" sm:flex hidden w-full bg-[#FAF9F6] flex py-4 px-4 justify-between items-center drop-shadow">
@@ -36,6 +46,8 @@ function Navbar() {
         >
           <Logo mobile={true} />
         </NavLink>
+
+        <div>{getPath()}</div>
 
         <motion.ul
           animate={open ? "open" : "closed"}
