@@ -47,6 +47,15 @@ function Navbar() {
               setOpen(false);
             }}
             className="text-3xl text-black border-b border-gray-200 py-4 "
+            to="/"
+          >
+            Home
+          </NavLink>
+          <NavLink
+            onClick={() => {
+              setOpen(false);
+            }}
+            className="text-3xl text-black border-b border-gray-200 py-4 "
             to="/admissions"
           >
             Admissions
