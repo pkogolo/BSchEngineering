@@ -8,6 +8,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Admissions from "./Pages/Admissions";
 import Curriculum from "./Pages/Curriculum";
 import Register from "./Pages/Register";
+import PortalDashboard from "./Pages/PortalDashboard";
 
 function App() {
   return (
@@ -33,6 +34,9 @@ function App() {
             </Route>
             <Route path="/register" exact>
               <Register />
+            </Route>
+            <Route path="/portal" exact>
+              <PortalDashboard />
             </Route>
           </Switch>
           <ClosureImage />

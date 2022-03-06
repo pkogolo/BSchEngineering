@@ -9,12 +9,16 @@ import HeaderImage from "../images/home-1.jpg";
 import leica1 from "../images/leica-1.jpg";
 import leica2 from "../images/leica-2.jpg";
 import leica4 from "../images/leica-4.jpg";
+import leica3 from "../images/leica-3.jpg";
 import autocad1 from "../images/autocad-1.jpg";
 import autocad2 from "../images/autocad-2.png";
 import reinforcement2 from "../images/reinforcement-2.jpg";
 import reinforcement3 from "../images/reinforcement-3.jpg";
 import surveying3 from "../images/surveying-3.jpg";
 import surveying2 from "../images/surveying-2.jpeg";
+import levellingUp1 from "../images/galleryImages/gallery1_37.jpg"
+import levellingUp2 from "../images/galleryImages/gallery1_29.jpg"
+import levellingUp3 from "../images/galleryImages/gallery1_22.jpg"
 
 function Home() {
   const image1 =
@@ -23,6 +27,8 @@ function Home() {
   const image3 = autocad2;
 
   const autoCADArray = [image1, image2, image3];
+  const settingOutArray = [surveying3, leica2, leica3];
+  const levellingUpArray = [levellingUp1, levellingUp2, levellingUp3];
   const liecaStationArray = [leica1, leica2, leica4];
   const reinforcementArray = [
     "https://images.unsplash.com/photo-1569258592171-357ea26da4df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
@@ -39,18 +45,19 @@ function Home() {
   const data = [
     {
       setion: "headerSection",
-      image: HeaderImage,
-      heading: "Training world class setting-out engineers",
+      image: surveying2,
+      heading:
+        "Progress your career into the construction industry from here. Earn £400+ per day.",
       caption:
-        "We are a top-ranked civil engineering academy focused on bridging the gap between university and the industry.",
+        "Join our academy to learn the easy way of becoming a professional in Rail, Building, Roads, Oil, and general Construction Industries as an Engineer. ",
     },
   ];
 
   const TextArray = [
-    "AutoCAD / Civil 3D / BIM",
-    "Leica station",
-    "Understanding Reinforcements",
-    "Surveying",
+    "Precise Setting Out",
+    "Levelling up",
+    "Autocad",
+    "Topo Surveys",
   ];
 
   return (
@@ -66,9 +73,9 @@ function Home() {
       <div className="relative grid grid-col-1">
         <CarouselGrid
           showText={true}
-          topArray={autoCADArray}
-          leftArray={liecaStationArray}
-          rightArray={reinforcementArray}
+          topArray={settingOutArray}
+          leftArray={levellingUpArray}
+          rightArray={autoCADArray}
           bottomArray={surveyingArray}
           textArray={TextArray}
         />
@@ -90,7 +97,7 @@ function Home() {
 
       <TitleContentBox
         title="Practical intensive training"
-        paragraph="Our state of the art equipment is designed to support our practical intensive curriculum. You will not only learn how to solve real-world problems and build projects, you will be encouraged to take them apart and put them back together. Our facilities are designed so that you can test, apply, and demonstrate your knowledge and skills in every course you take"
+        paragraph="No experience needed. Having an engineering background is not a prerequisite. You will be taught everything from the very foundation"
       />
 
       <StaggeredGrid />

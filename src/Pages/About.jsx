@@ -9,6 +9,7 @@ import Gallery4 from "../images/galleryImages/gallery5.jpg";
 import galleryAbout1 from "../images/galleryImages/gallery-about1.jpg";
 import CarouselGrid from "../Components/CarouselGrid";
 import DropDowns from "../Components/DropDowns";
+import Carousel from "../Components/Carousel";
 
 function About() {
   const data = [
@@ -18,7 +19,7 @@ function About() {
         "https://images.unsplash.com/photo-1512187849-463fdb898f21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80",
       heading: "We are here to bridge the gap between college and the industry",
       caption:
-        "Buckingham school of engineering is a hands-on training school, able to provide the students with an in-depth education needed at the time of application. We strive to give the students realistic tasks and situations to allow them to truly apply their knowledge and develop their career .",
+        "Buckingham School of Civil and Setting Out Engineering was recently established with an aim to bridge the gap of Engineering Shortage in construction industry.",
     },
 
     {
@@ -34,7 +35,6 @@ function About() {
   const leftImages = [Gallery4, Gallery2, Gallery3];
   const rightImages = [Gallery4, Gallery2, Gallery3];
   const bottomImages = [Gallery4, Gallery2, Gallery3];
-  
 
   return (
     <div>
@@ -45,23 +45,25 @@ function About() {
       />
 
       <div className="relative grid grid-col-1">
-        <CarouselGrid
+      <Carousel array={topImages} />
+        {/* <CarouselGrid
           showText={false}
           topArray={topImages}
           leftArray={leftImages}
           rightArray={rightImages}
           bottomArray={bottomImages}
           
-        />
+        /> */}
       </div>
       <div className=" sm:mt-[80rem] mt-[40rem]">
         <Button text="View our  gallery" />
       </div>
 
+      
+
       <TitleContentBox
-        title="Our Commitment to the Future of Education"
-        paragraph="Students learn differently.  Some learn more by doing,while others learn by seeing.
-        We are a new model for education that combines the best of online and on-campus learning and focuses on what students expect most—quality of instruction and clear satisfaction of their expectations."
+        title=""
+        paragraph="As Setting out engineers progress to site engineers, site engineers progress to senior engineers, to sub-agents, agents, Project managers etc, the industry leaves a huge gap at the entry levels - assistant engineers / chain men."
       />
 
       <Header
@@ -75,7 +77,6 @@ function About() {
       <div className="flex w-full items-center justify-center">
         <DropDowns Title="FAQs" />
       </div>
-
     </div>
   );
 }
