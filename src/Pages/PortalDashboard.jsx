@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../Components/Navbar";
 import { motion } from "framer-motion";
+import ResourceTable from "../Components/ResourceTable";
 
 function PortalDashboard() {
   return (
@@ -25,6 +25,8 @@ function PortalDashboard() {
       </div>
 
       <h1 className="text-center text-2xl my-8">Download Learning Resources</h1>
+
+      <ResourceTable></ResourceTable>
     </div>
   );
 }
