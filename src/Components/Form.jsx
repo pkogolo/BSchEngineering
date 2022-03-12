@@ -96,7 +96,7 @@ function Form() {
             className={
               !agreeToTC
                 ? "w-8 h-8 border border-gray mr-4 rounded-sm"
-                : "w-8 h-8 bg-[#7CFC00] mr-4 rounded-sm"
+                : "w-8 h-8 bg-[#081733] mr-4 rounded-sm"
             }
           >
             &nbsp;
@@ -107,10 +107,10 @@ function Form() {
 
       <div className="flex items-center justify-center mt-8 cursor-pointer">
         <h1
-          style={{ color: `${color}` }}
+          style={{ color: `black` }}
           className="font-bold text-center text-xl sm:text-3xl hover:text-[#A1C1F4]"
         >
-          {text}
+          Submit Registration form
         </h1>
         <div className="sm:ml-8 ml-0 ">
           <svg
