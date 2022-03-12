@@ -48,7 +48,7 @@ function Admissions() {
 
       <TitleContentBox
         title="Our Classes run Throughout the Year"
-        paragraph="We welcome students throughout the year. You can take two-week sessions and you get your certificate, or you take our weekend classes for a duration of two months
+        paragraph="We welcome students throughout the year and we run flexible class structures/n You can take a two-week session and you get your certificate, or you take our weekend classes for a duration of two months,then get your certificate.
         "
       />
       <TitleContentBox
