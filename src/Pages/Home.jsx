@@ -16,9 +16,9 @@ import reinforcement2 from "../images/reinforcement-2.jpg";
 import reinforcement3 from "../images/reinforcement-3.jpg";
 import surveying3 from "../images/surveying-3.jpg";
 import surveying2 from "../images/surveying-2.jpeg";
-import levellingUp1 from "../images/galleryImages/gallery1_37.jpg"
-import levellingUp2 from "../images/galleryImages/gallery1_29.jpg"
-import levellingUp3 from "../images/galleryImages/gallery1_22.jpg"
+import levellingUp1 from "../images/galleryImages/gallery1_37.jpg";
+import levellingUp2 from "../images/galleryImages/gallery1_29.jpg";
+import levellingUp3 from "../images/galleryImages/gallery1_22.jpg";
 
 function Home() {
   const image1 =
@@ -47,9 +47,9 @@ function Home() {
       setion: "headerSection",
       image: surveying2,
       heading:
-        "Progress your career into the construction industry from here. Earn £400+ per day.",
+        "Become a setting out engineer in the UK. Attend our practical training. Earn from £250  upwards",
       caption:
-        "Join our academy to learn the easy way of becoming a professional in Rail, Building, Roads, Oil, and general Construction Industries as an Engineer. ",
+        "Join our academy to learn the easy way of becoming a professional in Rail, Building, Roads, Oil, and general Construction Industries as a setting out Engineer.",
     },
   ];
 
