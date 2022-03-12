@@ -103,7 +103,7 @@ function Home() {
 
       <StaggeredGrid />
 
-      <Button text="Join our Next Cohort" link={"/register"} />
+      <Button text="Join our Next Class" link={"/register"} />
     </div>
   );
 }

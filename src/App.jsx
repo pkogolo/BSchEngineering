@@ -9,6 +9,7 @@ import Admissions from "./Pages/Admissions";
 import Curriculum from "./Pages/Curriculum";
 import Register from "./Pages/Register";
 import PortalDashboard from "./Pages/PortalDashboard";
+import ScrollToTop from "./Components/Utils/ScrollToTop";
 
 function App() {
   return (
@@ -20,24 +21,26 @@ function App() {
 
         <div className="w-full sm:px-16 px-4 pt-40 ">
           <Switch>
-            <Route path="/" exact>
-              <Home />
-            </Route>
-            <Route path="/about" exact>
-              <About />
-            </Route>
-            <Route path="/admissions" exact>
-              <Admissions />
-            </Route>
-            <Route path="/curriculum" exact>
-              <Curriculum />
-            </Route>
-            <Route path="/register" exact>
-              <Register />
-            </Route>
-            <Route path="/portal" exact>
-              <PortalDashboard />
-            </Route>
+            <ScrollToTop>
+              <Route path="/" exact>
+                <Home />
+              </Route>
+              <Route path="/about" exact>
+                <About />
+              </Route>
+              <Route path="/admissions" exact>
+                <Admissions />
+              </Route>
+              <Route path="/curriculum" exact>
+                <Curriculum />
+              </Route>
+              <Route path="/register" exact>
+                <Register />
+              </Route>
+              <Route path="/portal" exact>
+                <PortalDashboard />
+              </Route>
+            </ScrollToTop>
           </Switch>
           <ClosureImage />
         </div>

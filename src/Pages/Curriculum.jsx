@@ -41,9 +41,9 @@ function Curriculum() {
     {
       setion: "headerSection",
       image:
-        "https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "https://images.unsplash.com/photo-1581141849291-1125c7b692b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=866&q=80",
       heading:
-        "Our curriculum teaches students key  practical skills needed in today's industry.",
+        "Our curriculum equips our students with top-notch skills in setting out engineering to be able to excel in today's industry.",
       caption:
         "Here at Buckingham School of Engineering, we offer a unique approach to engineering education. Our curriculum teaches skills that are needed in industry without sacrificing theory. The ideal combination of theory and hands-on learning is what separates Buckingham from other schools.",
     },
