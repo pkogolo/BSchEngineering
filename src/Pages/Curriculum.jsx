@@ -50,16 +50,22 @@ function Curriculum() {
   ];
 
   const TextArray = [
-    "AutoCAD / Civil 3D / BIM",
-    "Leica station",
-    "Understanding Reinforcements",
-    "Surveying",
-    "Data Transfers (Excel / EDM)",
-    "Levelling and Height Transfers",
-    "Understanding Drawings",
-    "Calculations",
-    "PDF/DXF/DWG/KML/KMZ/GIS",
-    "PDF/DXF/DWG/KML/KMZ/GIS",
+    "Precise Setting Out",
+    "Levelling up",
+    "Grids and ref lines",
+    "Site Diaries",
+    "ITPs",
+    "Quality Assurance ",
+    "Autocad",
+    "Topo Surveys",
+    "Reading Drawings",
+    "RAMS, WPP, TBS",
+    "Basic Excel ",
+    "Structural Monitoring",
+    "Power Point",
+    "Microsoft Outlook ",
+    "Fieldview ",
+    "Documentations ",
   ];
   return (
     <div>
@@ -71,7 +77,9 @@ function Curriculum() {
 
       <h1 className="w-full my-20 text-4xl text-center">What we teach</h1>
 
-      <div className="relative grid grid-col-1">
+      <div className=" grid grid-rows-12  gap-6 grid-col-1">
+
+        <div className="row-span-4">
         <CarouselGrid
           showText={true}
           topArray={autoCADArray}
@@ -81,13 +89,16 @@ function Curriculum() {
           textArray={TextArray.slice(0, 3)}
           small={true}
         />
-        {/* <CarouselGrid
+          </div>
+       
+        <CarouselGrid
           showText={true}
           topArray={autoCADArray}
           leftArray={liecaStationArray}
           rightArray={reinforcementArray}
           bottomArray={surveyingArray}
           textArray={TextArray.slice(4, 7)}
+          small={true}
         />
         <CarouselGrid
           showText={true}
@@ -96,9 +107,10 @@ function Curriculum() {
           rightArray={reinforcementArray}
           bottomArray={surveyingArray}
           textArray={TextArray.slice(7)}
-        /> */}
+          small={true}
+        />
       </div>
-      <div className=" sm:mt-[80rem] mt-[40rem]">
+      <div className=" ">
         <Button text="Download course list" />
       </div>
 
