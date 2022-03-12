@@ -31,7 +31,7 @@ function Admissions() {
         "https://images.unsplash.com/photo-1518005020951-eccb494ad742?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=755&q=80",
       heading: "We are currently accepting Admissions",
       caption:
-        "We are happy to report that we have some openings for the fall cohort of our training programmes. ",
+        "We are happy to report that we have some openings throughout the year for all our classes. The next class starts on the 23rd of April 2022 ",
     },
   ];
   return (
@@ -47,8 +47,8 @@ function Admissions() {
       {/* <GalleryGrid imageArray={array} /> */}
 
       <TitleContentBox
-        title="Admission Criteria"
-        paragraph="We welcome students throughout the year. Next session starts 23rd of April. /n
+        title="Our Classes run Throughout the Year"
+        paragraph="We welcome students throughout the year. You can take two-week sessions and you get your certificate, or you take our weekend classes for a duration of two months
         "
       />
       <TitleContentBox
