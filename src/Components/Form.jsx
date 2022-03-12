@@ -10,10 +10,10 @@ function Form() {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_aydyvfl",
+        "template_eh6i3ev",
         form.current,
-        "YOUR_USER_ID"
+        "user_rXVRHJW6N4xVZUrPrHEOa"
       )
       .then(
         (result) => {
@@ -83,7 +83,7 @@ function Form() {
               type="text"
               placeholder="Enter your learning schedule - Weekdays or weekend only "
               className="w-full py-4 px-4 bg-[#F2F2F4] focus:outline-none"
-              name="start_date"
+              name="class_preference"
             />
           </div>
         </div>
@@ -105,7 +105,10 @@ function Form() {
         </div>
       </form>
 
-      <div className="flex items-center justify-center mt-8 cursor-pointer">
+      <div
+        onClick={sendForm}
+        className="flex items-center justify-center mt-8 cursor-pointer"
+      >
         <h1
           style={{ color: `black` }}
           className="font-bold text-center text-xl sm:text-3xl hover:text-[#A1C1F4]"
