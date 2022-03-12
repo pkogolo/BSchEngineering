@@ -111,7 +111,7 @@ function Curriculum() {
         />
       </div>
       <div className=" ">
-        <Button text="Download course list" />
+        <Button text="Register for your next class" link={"/register"}/>
       </div>
 
       <div className="flex w-full items-center justify-center">
