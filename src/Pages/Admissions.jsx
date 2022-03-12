@@ -42,7 +42,7 @@ function Admissions() {
         headerParagraph={data[0].caption}
       />
 
-      <h1 className="w-full my-20 text-4xl text-center">Available cohorts</h1>
+      <h1 className="w-full my-20 text-4xl text-center">Available Classes</h1>
 
       {/* <GalleryGrid imageArray={array} /> */}
 
