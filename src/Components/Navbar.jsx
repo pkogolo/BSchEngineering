@@ -25,18 +25,18 @@ function Navbar() {
 
   return (
     <div>
-      <div className=" sm:flex hidden w-full bg-[#FAF9F6] flex py-4 px-4 justify-between items-center drop-shadow">
+      <div className=" sm:flex hidden w-full bg-[#081733] text-white flex py-4 px-4 justify-between items-center drop-shadow">
         <NavLink className="" to="/">
           <Logo mobile={false} />
         </NavLink>
-        <ul className=" flex items-center py-4 justify-around  text-2xl w-3/4">
+        <ul className=" flex items-center py-4 justify-around  text-normal w-3/4">
           <NavLink to="/admissions">Admissions</NavLink>
           <NavLink to="/about">About</NavLink>
           <NavLink to="/register">Register</NavLink>
           <NavLink to="/">Login</NavLink>
         </ul>
       </div>
-      <div className=" sm:hidden flex w-full bg-[#FAF9F6] flex py-4 px-4 justify-between items-center drop-shadow">
+      <div className=" sm:hidden flex w-full bg-[#081733] text-white flex py-4 px-4 justify-between items-center drop-shadow">
         <NavLink
           onClick={() => {
             setOpen(false);
@@ -112,21 +112,21 @@ function Navbar() {
             >
               <path
                 d="M3 12H21"
-                stroke="black"
+                stroke="white"
                 strokeWidth={2}
                 strokeLinecap="round"
                 strokeLinejoin="round"
               />
               <path
                 d="M3 6H21"
-                stroke="black"
+                stroke="white"
                 strokeWidth={2}
                 strokeLinecap="round"
                 strokeLinejoin="round"
               />
               <path
                 d="M3 18H21"
-                stroke="black"
+                stroke="white"
                 strokeWidth={2}
                 strokeLinecap="round"
                 strokeLinejoin="round"
