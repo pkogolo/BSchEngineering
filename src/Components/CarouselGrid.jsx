@@ -68,8 +68,8 @@ function CarouselGrid({
         </div>
       )}
       {small && (
-        <div className="grid sm:grid-cols-12 grid-cols-1 gap-5  ">
-          <div className="sm:col-span-3 col-span-1  sm:pb-[72rem] pb-[36rem]">
+        <div className="grid sm:grid-cols-12 grid-cols-1 gap-4 ">
+          <div className="sm:col-span-3 grid-rows-1 col-span-1 sm:mb-[25rem]">
             {showText ? (
               <SmallCarousel
                 delay={1000}
@@ -81,7 +81,7 @@ function CarouselGrid({
               <SmallCarousel delay={1000} array={topArray} />
             )}
           </div>
-          <div className="sm:col-span-3 col-span-1 sm:pb-[72rem] pb-[36rem]">
+          <div className="sm:col-span-3 grid-rows-1 col-span-1">
             {showText ? (
               <SmallCarousel
                 delay={3000}
@@ -94,7 +94,7 @@ function CarouselGrid({
             )}
           </div>
 
-          <div className="sm:col-span-3 col-span-1 sm:pb-[72rem] pb-[36rem]">
+          <div className="sm:col-span-3 grid-rows-1 col-span-1 ">
             {showText ? (
               <SmallCarousel
                 delay={2000}
@@ -107,7 +107,7 @@ function CarouselGrid({
             )}
           </div>
 
-          <div className="sm:col-span-3 col-span-1 ">
+          <div className="sm:col-span-3 grid-rows-1 col-span-1 ">
             {showText ? (
               <SmallCarousel
                 delay={3500}

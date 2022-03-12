@@ -77,9 +77,9 @@ function Curriculum() {
 
       <h1 className="w-full my-20 text-4xl text-center">What we teach</h1>
 
-      <div className=" grid grid-rows-12  gap-6 grid-col-1">
+      <div className=" grid-flow-row auto-rows-max">
 
-        <div className="row-span-4">
+        <div className="">
         <CarouselGrid
           showText={true}
           topArray={autoCADArray}

@@ -13,7 +13,7 @@ function Header({ headerImage, headerText, headerParagraph }) {
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ ease: "easeOut", duration: 2 }}
-          className="sm:text-3xl text-xl text-[#2F2D2D] w-full sm:w-1/2 text-center sm:mb-40 mb-20 sm:mt-20 mt-10 leading-70 "
+          className="sm:text-3xl text-xl text-[#2F2D2D] w-full sm:w-1/2 text-center sm:mb-40 mb-20 sm:mt-20 mt-10 leading-loose "
         >
           {headerText}
         </motion.h1>

@@ -44,7 +44,7 @@ function Admissions() {
 
       <h1 className="w-full my-20 text-4xl text-center">Available cohorts</h1>
 
-      <GalleryGrid imageArray={array} />
+      {/* <GalleryGrid imageArray={array} /> */}
 
       <TitleContentBox
         title="Admission Criteria"
@@ -53,7 +53,7 @@ function Admissions() {
       />
       <TitleContentBox
         title="Tuition and Fees"
-        paragraph="Buckingham offers a training format that is ideal for working students. The fees per cohort will remain the same throughout the year, meaning when you want to start or finish your studies there are no hidden costs./n The tuition fee for each cohort is £7,000 per cohort./n  This covers the expenses in training equipment, training manuals and personal protective equipment"
+        paragraph="Buckingham offers a training format that is ideal for working students. The fees per cohort will remain the same throughout the year, meaning when you want to start or finish your studies there are no hidden costs./n The tuition fee for each cohort is £2,200 per cohort./n  This covers the expenses in training equipment, training manuals and personal protective equipment"
       />
 
       <Button text="Enroll Now" color="#68696F" />
