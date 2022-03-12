@@ -45,7 +45,7 @@ function Curriculum() {
       heading:
         "Our curriculum equips our students with top-notch skills in setting out engineering to be able to excel in today's industry.",
       caption:
-        "Here at Buckingham School of Engineering, we offer a unique approach to engineering education. Our curriculum teaches skills that are needed in industry without sacrificing theory. The ideal combination of theory and hands-on learning is what separates Buckingham from other schools.",
+        "Here at Buckingham School of Engineering, we offer a unique approach to our trainings. Our curriculum teaches the top in-demand skills with a perfect blend of theory and practical. Thus, our student's are highly funcitonal in the setting-out industry immediately after they receive their training certification ",
     },
   ];
 
@@ -79,8 +79,9 @@ function Curriculum() {
           rightArray={reinforcementArray}
           bottomArray={surveyingArray}
           textArray={TextArray.slice(0, 3)}
+          small={true}
         />
-        <CarouselGrid
+        {/* <CarouselGrid
           showText={true}
           topArray={autoCADArray}
           leftArray={liecaStationArray}
@@ -95,7 +96,7 @@ function Curriculum() {
           rightArray={reinforcementArray}
           bottomArray={surveyingArray}
           textArray={TextArray.slice(7)}
-        />
+        /> */}
       </div>
       <div className=" sm:mt-[80rem] mt-[40rem]">
         <Button text="Download course list" />

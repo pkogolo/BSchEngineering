@@ -5,7 +5,7 @@ import Carousel1 from "../images/carousel-1.jpg";
 import Carousel4 from "../images/carousel-4.jpg";
 import Carousel5 from "../images/carousel-5.jpg";
 
-function Carousel({ button, text, array, showtext, delay }) {
+function Carousel({ button, text, array, showtext, delay, small }) {
   let [index, setIndex] = useState(0);
 
   function changeImage(array) {
@@ -57,7 +57,7 @@ function Carousel({ button, text, array, showtext, delay }) {
           id="carousel"
           className="rounded z-30 bg-white w-fit py-4 px-8 rounded-full absolute sm:top-20 sm:left-10 top-[8px] left-[8px] cursor-pointer hover:bg-[#133574] text-[#133574] hover:text-white"
         >
-          <h1 className="sm:text-2xl text-normal  ">{text}</h1>
+          <h1 className=" text-normal  ">{text}</h1>
         </div>
       )}
     </div>

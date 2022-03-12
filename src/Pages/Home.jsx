@@ -55,7 +55,7 @@ function Home() {
       setion: "headerSection",
       image: surveying2,
       heading:
-        "Become a setting out engineer in the UK. Attend our practical training. Earn from £250  upwards",
+        "Become a setting out engineer in the UK. Attend our practical training. Earn from £250 upwards per day",
       caption:
         "Join our academy to learn the easy way of becoming a professional in Rail, Building, Roads, Oil, and general Construction Industries as a setting out Engineer.",
     },
