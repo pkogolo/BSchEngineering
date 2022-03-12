@@ -48,12 +48,12 @@ function Admissions() {
 
       <TitleContentBox
         title="Admission Criteria"
-        paragraph="We welcome students throughout the year. Fresh civil engineering graduates are to have a firm grasp of the basic theoretical concepts of surveying  prior to enrolling in Buckingham School of Engineering. /n
-        Admitted students are typically notified of their acceptance into the program two weeks after application,  students may check their admission status at any time on their account."
+        paragraph="We welcome students throughout the year. Next session starts 23rd of April. /n
+        "
       />
       <TitleContentBox
         title="Tuition and Fees"
-        paragraph="Buckingham offers a training format that is ideal for working students. The fees per cohort will remain the same throughout the year, meaning when you want to start or finish your studies there are no hidden costs./n The tuition fee for each cohort is £2,200 per cohort./n  This covers the expenses in training equipment, training manuals and personal protective equipment"
+        paragraph="Buckingham offers a training format that is ideal for working students. The fees per class will remain the same throughout the year, meaning when you want to start or finish your studies there are no hidden costs./n The tuition fee for each cohort is £2,200 per cohort./n  This covers the expenses in training equipment, training manuals and personal protective equipment"
       />
 
       <Button text="Enroll Now" color="#68696F" />
