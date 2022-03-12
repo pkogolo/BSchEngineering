@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 
 function Form() {
   const [agreeToTC, setAgreeToTC] = useState(false);
+  const [messageStatus, setMessageStatus] = useState("");
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -18,9 +19,11 @@ function Form() {
       .then(
         (result) => {
           console.log(result.text);
+          setMessageStatus("SUCCESS");
         },
         (error) => {
           console.log(error.text);
+          setMessageStatus("ERROR");
         }
       );
   };
@@ -147,6 +150,13 @@ function Form() {
           </svg>
         </div>
       </div>
+      {messageStatus == "SUCCESS" && (
+        <div className="flex justify-center items-center mt-8">
+          <p className="text-center  bg-green-400 p-4 rounded text-white">
+            {messageStatus}
+          </p>
+        </div>
+      )}
     </div>
   );
 }
