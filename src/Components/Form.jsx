@@ -106,7 +106,7 @@ function Form() {
       </form>
 
       <div
-        onClick={sendForm}
+        onClick={sendEmail}
         className="flex items-center justify-center mt-8 cursor-pointer"
       >
         <h1
