@@ -9,9 +9,9 @@ function Register() {
       setion: "headerSection",
       image:
         "https://images.unsplash.com/photo-1483366774565-c783b9f70e2c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-      heading: "Register to join the next available cohort",
+      heading: "Register to join the next available class - April 23rd 2023",
       caption:
-        "We are happy to report that we have some openings for the fall cohort of our training programmes. ",
+        "We are happy to report that we have some openings for the next sessions of our training programmes. ",
     },
 
     {
