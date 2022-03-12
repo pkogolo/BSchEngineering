@@ -88,7 +88,7 @@ function Home() {
           textArray={TextArray}
         />
       </div>
-      <div className=" mt-20">
+      <div className=" sm:mt-20 mt-[38rem]">
         <Button text="View our full Curriculum" link={"/curriculum"} />
       </div>
       <TitleContentBox title="Learn from industry experts" paragraph="" />

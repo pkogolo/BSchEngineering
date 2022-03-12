@@ -5,7 +5,7 @@ import company3 from "../images/company-3.png";
 
 function CompanyCarousel() {
   return (
-    <div className="grid grid-cols-12 gap-6 justify-around ">
+    <div className="grid grid-cols-1 sm:grid-cols-12 gap-6 justify-around ">
       <div
         style={{
           backgroundImage: `url(https://lindumgroup.com/media/uploads/2019/07/lindum.svg)`,
