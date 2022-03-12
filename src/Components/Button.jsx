@@ -3,10 +3,13 @@ import { Link } from "react-router-dom";
 
 function Button({ text, link, color }) {
   return (
-    <Link to={link} className="flex items-center justify-center mt-8 cursor-pointer">
+    <Link
+      to={link}
+      className="flex items-center justify-center mt-8 cursor-pointer"
+    >
       <h1
         style={{ color: `${color}` }}
-        className="font-bold text-center text-2xl sm:text-4xl"
+        className="font-bold text-center text-xl sm:text-3xl hover:text-[#A1C1F4]"
       >
         {text}
       </h1>

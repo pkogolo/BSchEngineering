@@ -26,8 +26,16 @@ function Home() {
   const image2 = autocad1;
   const image3 = autocad2;
 
-  const autoCADArray = [image1, image2, image3];
-  const settingOutArray = [surveying3, leica2, leica3];
+  const autoCADArray = [
+    "https://images.unsplash.com/photo-1581093196867-ca3dba3c721b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+    "https://images.unsplash.com/photo-1581093067310-624c320ffd3c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+    "https://images.unsplash.com/photo-1581093206409-01076de81a1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+  ];
+  const settingOutArray = [
+    surveying3,
+    leica2,
+    "https://images.unsplash.com/photo-1602014159194-2209155886e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+  ];
   const levellingUpArray = [levellingUp1, levellingUp2, levellingUp3];
   const liecaStationArray = [leica1, leica2, leica4];
   const reinforcementArray = [
@@ -37,9 +45,9 @@ function Home() {
   ];
 
   const surveyingArray = [
-    "https://images.unsplash.com/photo-1628158145409-9e222b56cc0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1543&q=80",
-    surveying2,
-    surveying3,
+    "https://images.unsplash.com/photo-1516689948391-3379ec7c7df0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80",
+    "https://images.unsplash.com/photo-1521661488642-d86e85a90de2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+    "https://images.unsplash.com/photo-1532154078493-c1c3eef2023c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
   ];
 
   const data = [
@@ -80,24 +88,17 @@ function Home() {
           textArray={TextArray}
         />
       </div>
-      <div className=" sm:mt-[80rem] mt-[40rem]">
+      <div className=" mt-20">
         <Button text="View our full Curriculum" link={"/curriculum"} />
+      </div>
+      <TitleContentBox title="Learn from industry experts" paragraph="" />
+      <div className="bg-[#081733] p-6">
+        <CompanyCarousel />
       </div>
 
       <TitleContentBox
-        title="Learn from industry experts"
-        paragraph="We have a very experienced team of professionals who have vast
-          experience in their field. Our advisors are people who have succeeded
-          in the civil engineering field, having worked at big firms such as
-          Arup and Mott MacDonald. They help us students to understand what will
-          be expected of them once they enter the industry."
-      />
-
-      <CompanyCarousel />
-
-      <TitleContentBox
-        title="Practical intensive training"
-        paragraph="No experience needed. Having an engineering background is not a prerequisite. You will be taught everything from the very foundation"
+        title="Our Trainings are Practical Intensive"
+        paragraph="No experience needed. Having an engineering background is not a prerequisite. You will be taught everything from scratch"
       />
 
       <StaggeredGrid />

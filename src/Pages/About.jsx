@@ -55,7 +55,7 @@ function About() {
           
         /> */}
       </div>
-      <div className=" sm:mt-[80rem] mt-[40rem]">
+      <div className=" mt-20">
         <Button text="View our  gallery" />
       </div>
 

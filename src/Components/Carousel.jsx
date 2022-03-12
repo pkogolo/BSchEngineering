@@ -5,14 +5,14 @@ import Carousel1 from "../images/carousel-1.jpg";
 import Carousel4 from "../images/carousel-4.jpg";
 import Carousel5 from "../images/carousel-5.jpg";
 
-function Carousel({ button, text, array, showtext }) {
+function Carousel({ button, text, array, showtext, delay }) {
   let [index, setIndex] = useState(0);
 
   function changeImage(array) {
     if (index < array.length) {
       setTimeout(() => {
         setIndex((index += 1));
-      }, 3000);
+      }, delay + 3000);
     } else {
       setIndex(0);
     }

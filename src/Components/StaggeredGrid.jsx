@@ -16,7 +16,9 @@ function StaggeredGrid() {
         className=" py-80  w-full col-span-1 bg-no-repeat bg-cover bg-center"
       ></div>
       <div
-        style={{ backgroundImage: `url(${equipment4})` }}
+        style={{
+          backgroundImage: `url(https://images.unsplash.com/photo-1508450859948-4e04fabaa4ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=958&q=80)`,
+        }}
         className=" py-80 -mt-40 w-full col-span-1 bg-no-repeat bg-cover bg-top"
       ></div>
       <div
