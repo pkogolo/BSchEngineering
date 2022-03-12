@@ -33,7 +33,7 @@ function Navbar() {
           <NavLink to="/admissions">Admissions</NavLink>
           <NavLink to="/about">About</NavLink>
           <NavLink to="/register">Register</NavLink>
-          <NavLink to="/">Login</NavLink>
+          <NavLink to="/login">Login</NavLink>
         </ul>
       </div>
       <div className=" sm:hidden flex w-full bg-[#081733] text-white flex py-4 px-4 justify-between items-center drop-shadow">
@@ -95,7 +95,7 @@ function Navbar() {
               setOpen(false);
             }}
             className="text-3xl text-black border-b border-gray-200 py-4 "
-            to="/"
+            to="/login"
           >
             Login
           </NavLink>

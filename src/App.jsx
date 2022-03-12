@@ -10,6 +10,7 @@ import Curriculum from "./Pages/Curriculum";
 import Register from "./Pages/Register";
 import PortalDashboard from "./Pages/PortalDashboard";
 import ScrollToTop from "./Components/Utils/ScrollToTop";
+import Login from "./Pages/Login";
 
 function App() {
   return (
@@ -39,6 +40,9 @@ function App() {
               </Route>
               <Route path="/portal" exact>
                 <PortalDashboard />
+              </Route>
+              <Route path="/login" exact>
+                <Login />
               </Route>
             </ScrollToTop>
           </Switch>
