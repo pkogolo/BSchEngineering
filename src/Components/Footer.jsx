@@ -5,7 +5,8 @@ function Footer() {
     <div className="w-full sm:mt-36 mt-8 bg-[#081733] text-white sm:px-16 px-4 py-6">
       <div className="w-full border-b py-6 flex">
         <h1 className="text-3xl">Connect With us</h1>
-        <svg className="mx-2"
+        <svg
+          className="mx-2"
           width={36}
           height={36}
           viewBox="0 0 36 36"
@@ -21,7 +22,8 @@ function Footer() {
           />
         </svg>
 
-        <svg className="mx-2"
+        <svg
+          className="mx-2"
           width={36}
           height={36}
           viewBox="0 0 36 36"
@@ -51,7 +53,8 @@ function Footer() {
           />
         </svg>
 
-        <svg className="mx-2"
+        <svg
+          className="mx-2"
           width={36}
           height={36}
           viewBox="0 0 36 36"
@@ -101,7 +104,13 @@ function Footer() {
             <li className="mb-4">Login to profile</li>
           </ul>
         </div>
-        <div></div>
+        <div>
+          <h1 className="text-white text-3xl mt-8 sm:mt-0">Contact Address</h1>
+          <p className="text-white my-4">
+            Middle Blackgrove farm, Quainton, Aylesbury HP22 4AD Map of bucks
+            training academy
+          </p>
+        </div>
         <div></div>
       </div>
     </div>
