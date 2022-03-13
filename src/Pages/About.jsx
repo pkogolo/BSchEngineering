@@ -45,7 +45,7 @@ function About() {
       />
 
       <div className="relative grid grid-col-1">
-      <Carousel array={topImages} />
+      {/* <Carousel array={topImages} /> */}
         {/* <CarouselGrid
           showText={false}
           topArray={topImages}
