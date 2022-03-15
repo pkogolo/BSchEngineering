@@ -18,7 +18,7 @@ function Login() {
   const apiKey = "nZwFSOSLiz3qQK8lcUMG9lEkqQKPrjp8hkHccIy9";
 
   const getUsername = (e) => {
-    setUsername(e.target.value);
+    setUsername(e.target.value.toLowerCase());
   };
   const getPassword = (e) => {
     setPassword(e.target.value);
