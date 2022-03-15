@@ -24,18 +24,22 @@ function ResourceTable() {
 
   function generateCards() {
     const array = data.map((item) => (
-      <div className="bg-[#F6EFEF] hover:bg-[#ECECF5] items-center rounded-lg p-2 mb-4 flex justify-between w-full">
+      <a
+        target={"_blank"}
+        href={item.url}
+        className="bg-[#F6EFEF] hover:bg-[#ECECF5] items-center rounded-lg p-2 mb-4 flex justify-between w-full"
+      >
         <div className="sm:flex hidden">
           <SVG type={"FILE"} />
         </div>
         <div className=" w-3/4">
-          <a  target={"_blank"} className="text-left text-sm" href={item.url}>
-            {item.Module_tile.replace("+"," ")}
+          <a target={"_blank"} className="text-left text-sm" href={item.url}>
+            {item.Module_tile.replace("+", " ")}
           </a>
         </div>
 
         <SVG type={"DOWNLOAD"} />
-      </div>
+      </a>
     ));
 
     return array;
