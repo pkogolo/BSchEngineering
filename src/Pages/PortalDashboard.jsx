@@ -12,7 +12,7 @@ function PortalDashboard() {
           transition={{ ease: "easeOut", duration: 2 }}
           className="sm:text-5xl text-3xl text-[#2F2D2D] w-full sm:w-1/2 text-center sm:mb-40 mb-20 sm:mt-20 mt-10 "
         >
-          Welcome Carl, to your Trainee Portal
+          Welcome, to your Trainee Portal
         </motion.h1>
         <div
           style={{
