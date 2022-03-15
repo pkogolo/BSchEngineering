@@ -107,8 +107,7 @@ function Footer() {
         <div>
           <h1 className="text-white text-3xl mt-8 sm:mt-0">Contact Address</h1>
           <p className="text-white my-4">
-            Middle Blackgrove farm, Quainton, Aylesbury HP22 4AD Map of bucks
-            training academy
+            Middle Blackgrove farm, Quainton, Aylesbury HP22 4AD
           </p>
         </div>
         <div></div>

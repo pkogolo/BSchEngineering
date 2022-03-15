@@ -12,8 +12,7 @@ function DropDowns({ Title, courseList }) {
         },
         {
           heading: "Will the training courses be fully practical ?",
-          content:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle",
+          content: "The training courses would be practical heavy",
         },
         {
           heading: "How much do they cost?",
@@ -23,34 +22,33 @@ function DropDowns({ Title, courseList }) {
           heading:
             "Will I be given a cerificate on completeion of my training ?",
           content:
-            "The setting out and site surveying courses are valid UK qualifications recognised internationally.",
+            "Yes, trainees who complete the training programme would be given their earned certificates",
         },
         {
           heading: "How long does it take to complete the course?",
           content:
-            "Weekend courses are flexible and duration depend on your background, students can study from one week full time to up to 3 month of Saturday sessions.",
+            "Week day programmes last for two weeks. Weekend programmes run for two months",
         },
         {
           heading:
             " I am an overseas graduate in civil engineering, and when I ring agencies they want UK site experience which I don't have. Can I get this experience with you?",
           content:
-            " Yes, our courses are based from office and an outdoor practice area. Our courses are hands on with lots of practice.",
+            " Yes, our courses are based from office and an outdoor practice area. Our courses are hands-on with lots of practice.",
         },
         {
           heading: "Where are the courses held?",
-          content:
-            "The courses are held at our offices from 10 Downing Street , Buckingham, London N3 1QA. We are just 5 min's walk Finchley Central tube station. We also have practice areas out door.",
+          content: "TMiddle Blackgrove farm, Quainton, Aylesbury HP22 4AD ",
         },
         {
           heading: "Do I need to come with my training kit?",
           content:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle",
+            "No you do not need to come with your training kit as this would be provided for you",
         },
         {
           heading:
             "Can I make payments and defer my learning till when I am free?",
           content:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle",
+            "Yes you can make payments and defer your learning till you are free",
         },
       ]
     : [
