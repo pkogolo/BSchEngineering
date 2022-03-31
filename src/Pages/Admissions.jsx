@@ -56,7 +56,7 @@ function Admissions() {
         paragraph="Buckingham School of Engineering offers a training format that is ideal for working students. The fees per class will remain the same throughout the year, meaning when you want to start or finish your studies there are no hidden costs./n The tuition fee for each session is £2,200 for the entire session duration./n  This covers the expenses in training equipment, training manuals and personal protective equipment"
       />
 
-      <Button text="Enroll Now" color="#68696F" />
+      <Button text="Enroll Now" link={"/register"} color="#68696F" />
 
       <div className="flex w-full items-center justify-center">
         <DropDowns Title="FAQs" />
