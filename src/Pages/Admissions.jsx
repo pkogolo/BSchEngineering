@@ -31,7 +31,7 @@ function Admissions() {
         "https://images.unsplash.com/photo-1518005020951-eccb494ad742?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=755&q=80",
       heading: "We are currently accepting Admissions",
       caption:
-        "We are happy to report that we have some openings throughout the year for all our classes. The next class starts on the 23rd of April 2022 ",
+        "We are happy to report that we have some openings throughout the year for all our classes. The next class starts on the 16th of June 2022 ",
     },
   ];
   return (
