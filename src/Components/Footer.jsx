@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -88,9 +89,16 @@ function Footer() {
         <div>
           <h1 className="text-3xl mb-8">Information About</h1>
           <ul>
-            <li className="mb-4">Buckingham School of Engineering</li>
-            <li className="mb-4">Admissions</li>
-            <li className="mb-4">Curriculum</li>
+            <li className="mb-4">
+              {" "}
+              <Link to={"/about"}>Buckingham School of Engineering</Link>{" "}
+            </li>
+            <li className="mb-4">
+              <Link to={"/admissions"}>Admissions</Link>
+            </li>
+            <li className="mb-4">
+              <Link to={"/curriculum"}>Curriculum</Link>
+            </li>
             <li className="mb-4">Data privacy / GDPR</li>
             <li className="mb-4">Terms and conditions</li>
           </ul>
@@ -100,8 +108,12 @@ function Footer() {
           <ul>
             <li className="mb-4">Frequently asked questions</li>
             <li className="mb-4">Course list</li>
-            <li className="mb-4">Curriculum</li>
-            <li className="mb-4">Login to profile</li>
+            <li className="mb-4">
+              <Link to={"/curriculum"}>Curriculum</Link>
+            </li>
+            <li className="mb-4">
+              <Link to={"/login"}>Login to profile</Link>
+            </li>
           </ul>
         </div>
         <div>
