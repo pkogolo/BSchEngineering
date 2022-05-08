@@ -92,24 +92,29 @@ function CourseCarousel() {
     {
       text: "Basic Excel",
       image:
-        "https://p.kindpng.com/picc/s/133-1335617_microsoft-excel-logo-png-ms-office-excel-logo.png",
+        "https://1000logos.net/wp-content/uploads/2020/08/Microsoft-Excel-Logo.jpg",
       description:
         "We would teach you how to use Microsoft Excel to create spreadsheets, perform simple calculations and organize your tasks",
     },
     {
       text: "Structural Monitoring",
       image: reinforcement2,
-      description: "learn the benefits of making money",
+      description:
+        "We would teach you the basics of structural monitoring and how to evaluate and monitor structural health of a construction work over time.",
     },
     {
       text: "Power Point",
-      image: leica2,
-      description: "learn the benefits of making money",
+      image:
+        "https://freepowerpointtemplates.com/wp-content/uploads/PowerPoint-Logo-Cover-FreePowerPointTemplates.png",
+      description:
+        "We would teach you how to make professional presentaions using Microsoft Powerpoint, giving you a solid edge in the engineering industry",
     },
     {
       text: "Microsoft Outlook",
-      image: leica2,
-      description: "learn the benefits of making money",
+      image:
+        "https://logos-world.net/wp-content/uploads/2021/02/Outlook-Logo.png",
+      description:
+        "We would teach you the how to use enterprise-grade Microsoft Outlook to communicate in the engineering industry",
     },
     {
       text: "Fieldview",

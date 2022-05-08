@@ -32,8 +32,8 @@ function Navbar() {
         <ul className=" flex items-center py-4 justify-around  text-normal w-3/4">
           <NavLink to="/admissions">Admissions</NavLink>
           <NavLink to="/about">About</NavLink>
-          <NavLink to="/register">Register</NavLink>
-          <NavLink to="/login">Login</NavLink>
+          <NavLink to="/register">Enroll Now</NavLink>
+          <NavLink to="/login">Resource Portal</NavLink>
         </ul>
       </div>
       <div className=" sm:hidden flex w-full bg-[#081733] text-white flex py-4 px-4 justify-between items-center drop-shadow">
@@ -88,7 +88,7 @@ function Navbar() {
             className="text-3xl text-black border-b border-gray-200 py-4 "
             to="/register"
           >
-            Register
+            Enrol Now
           </NavLink>
           <NavLink
             onClick={() => {
@@ -97,7 +97,7 @@ function Navbar() {
             className="text-3xl text-black border-b border-gray-200 py-4 "
             to="/login"
           >
-            Login
+            Resource Portal
           </NavLink>
         </motion.ul>
 
