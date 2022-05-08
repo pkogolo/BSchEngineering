@@ -4,6 +4,12 @@ import emailjs from "@emailjs/browser";
 function Form() {
   const [agreeToTC, setAgreeToTC] = useState(false);
   const [messageStatus, setMessageStatus] = useState("");
+  const [fullName, setFullName] = useState("");
+  const [emailAddress, setEmailAddress] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [location, setLocation] = useState("");
+  const [working, setWorking] = useState("");
+  const [classDays, setClassDays] = useState("");
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -28,12 +34,34 @@ function Form() {
       );
   };
 
+  const checkFormCompletionStatus = (e) => {
+    if (
+      agreeToTC == true &&
+      fullName != "" &&
+      emailAddress !== "" &&
+      phoneNumber !== "" &&
+      location !== "" &&
+      working !== "" &&
+      classDays !== ""
+    ) {
+      sendEmail(e);
+      console.log("mailsent")
+    } else {
+      setMessageStatus(
+        "Error! Please complete all fields and agree to the terms and conditions"
+      );
+    }
+  };
+
   return (
     <div>
       <form ref={form} onSubmit={sendEmail} action="" className="sm:px-24 px-0">
         <div className="mt-4">
           <h1 className="py-2">Full Name</h1>
           <input
+            onChange={(e) => {
+              setFullName(e.target.value);
+            }}
             type="text"
             placeholder="Enter your full Name here"
             className="w-full py-4 px-4 bg-[#F2F2F4] focus:outline-none"
@@ -43,6 +71,9 @@ function Form() {
         <div className="mt-4">
           <h1 className="py-2">Email Address</h1>
           <input
+            onChange={(e) => {
+              setEmailAddress(e.target.value);
+            }}
             type="text"
             placeholder="Enter your Email Address here"
             className="w-full py-4 px-4 bg-[#F2F2F4] focus:outline-none"
@@ -52,6 +83,9 @@ function Form() {
         <div className="mt-4">
           <h1 className="py-2">Phone Number</h1>
           <input
+            onChange={(e) => {
+              setPhoneNumber(e.target.value);
+            }}
             type="text"
             placeholder="Enter your Phone Number here"
             className="w-full py-4 px-4 bg-[#F2F2F4] focus:outline-none"
@@ -61,6 +95,9 @@ function Form() {
         <div className="mt-4">
           <h1 className="py-2">Current city/Location (Within the UK)</h1>
           <input
+            onChange={(e) => {
+              setLocation(e.target.value);
+            }}
             type="text"
             placeholder="Which city do you stay within the UK?"
             className="w-full py-4 px-4 bg-[#F2F2F4] focus:outline-none"
@@ -72,6 +109,9 @@ function Form() {
           <div className="mt-4">
             <h1 className="py-2">Are you currently working? (Yes/No)</h1>
             <input
+              onChange={(e) => {
+                setWorking(e.target.value);
+              }}
               type="text"
               placeholder="Please reply with a yes or no"
               className="w-full py-4 px-4 bg-[#F2F2F4] focus:outline-none"
@@ -83,6 +123,9 @@ function Form() {
               Do you prefer weekday classes or weekend only classes
             </h1>
             <input
+              onChange={(e) => {
+                setClassDays(e.target.value);
+              }}
               type="text"
               placeholder="Enter your learning schedule - Weekdays or weekend only "
               className="w-full py-4 px-4 bg-[#F2F2F4] focus:outline-none"
@@ -109,7 +152,7 @@ function Form() {
       </form>
 
       <div
-        onClick={sendEmail}
+        onClick={checkFormCompletionStatus}
         className="flex items-center justify-center mt-8 cursor-pointer"
       >
         <h1
@@ -150,7 +193,7 @@ function Form() {
           </svg>
         </div>
       </div>
-      {messageStatus == "SUCCESS" && (
+      {messageStatus !== "" && (
         <div className="flex justify-center items-center mt-8">
           <p className="text-center  bg-green-400 p-4 rounded text-white">
             {messageStatus}

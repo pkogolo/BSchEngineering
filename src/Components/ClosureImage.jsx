@@ -1,12 +1,12 @@
 import React from "react";
-import closure from "../images/galleryImages/closure.jpg";
+import closure from "../images/footerImage.jpg";
 
 function ClosureImage() {
   return (
     <div
       id="carousel"
       style={{
-        backgroundImage: `url(https://images.unsplash.com/photo-1591955506264-3f5a6834570a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80)`,
+        backgroundImage: `url(${closure})`,
       }}
       className="w-full brightness-50 hover:brightness-100 py-40 sm:py-80 bg-cover sm:mt-36 mt-8"
     ></div>
