@@ -28,6 +28,14 @@ import topoSurveys2 from "../images/topoSurveys2.jpg";
 import qualityAssurance from "../images/footerImage.jpg";
 
 function CourseCarousel() {
+  const breakPoints = [
+    { width: 1, itemsToShow: 1 },
+    { width: 300, itemsToShow: 1.5, itemsToScroll: 1, pagination: false },
+    { width: 850, itemsToShow: 3 },
+    { width: 1150, itemsToShow: 4, itemsToScroll: 2 },
+    { width: 1450, itemsToShow: 5 },
+    { width: 1750, itemsToShow: 6 },
+  ];
   const lectureCards = [
     {
       text: "Precise Setting Out",
@@ -76,7 +84,8 @@ function CourseCarousel() {
     },
     {
       text: "Reading Drawings",
-      image: leica2,
+      image:
+        "https://images.pexels.com/photos/4792491/pexels-photo-4792491.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       description:
         "We would teach you how to read and understand construction drawings and interpret blueprints",
     },
@@ -85,11 +94,11 @@ function CourseCarousel() {
       image:
         "https://p.kindpng.com/picc/s/133-1335617_microsoft-excel-logo-png-ms-office-excel-logo.png",
       description:
-        "learn how to use Microsoft Excel to create spreadsheets, perform simple calculations and organize your tasks",
+        "We would teach you how to use Microsoft Excel to create spreadsheets, perform simple calculations and organize your tasks",
     },
     {
       text: "Structural Monitoring",
-      image: leica2,
+      image: reinforcement2,
       description: "learn the benefits of making money",
     },
     {
@@ -120,7 +129,7 @@ function CourseCarousel() {
   ];
   return (
     <div>
-      <Carousel itemsToShow={4} itemsToScroll={2}>
+      <Carousel itemsToShow={4} itemsToScroll={2} breakPoints={breakPoints}>
         {lectureCards.map((item, index = 0) => (
           <CourseCard
             key={(index += 1)}
