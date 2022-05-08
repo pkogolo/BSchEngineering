@@ -76,8 +76,6 @@ function Home() {
     "Topo Surveys",
   ];
 
-  
-
   return (
     <div>
       <Header
@@ -93,18 +91,21 @@ function Home() {
       <CourseCarousel />
 
       <div className="relative grid grid-col-1"></div>
-      <div className=" sm:mt-20 mt-[38rem]">
+      {/* <div className=" sm:mt-20 mt-[38rem]">
         <Button text="View our full Curriculum" link={"/curriculum"} />
-      </div>
-      <TitleContentBox title="Learn from industry experts" paragraph="" />
+      </div> */}
+
+      <TitleContentBox
+        title="Training Duration"
+        paragraph="Our trainings run for Two weeks. However, We have very flexible class structures to accommodate trainees with part time or full time jobs. You can either take a straight two-week session, or our weekend classes for a duration of two months./n Professional digital and hard copy certificates  from the Buckingham School of Civil and Setting out Engineering are issued upon completion of the training programme"
+      />
+      <TitleContentBox
+        title="Our trainings are performend by from industry experts"
+        paragraph="Our trainings are done by seasoned industry experts with over 15 years of experience in the engineering industry."
+      />
       <div className="bg-[#081733] p-6">
         <CompanyCarousel />
       </div>
-
-      <TitleContentBox
-        title="Our Trainings are Practical Intensive"
-        paragraph="No experience needed. Having an engineering background is not a prerequisite. You will be taught everything from scratch"
-      />
 
       <StaggeredGrid />
 

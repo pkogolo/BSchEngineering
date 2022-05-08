@@ -118,18 +118,23 @@ function CourseCarousel() {
     },
     {
       text: "Fieldview",
-      image: leica2,
-      description: "learn the benefits of making money",
+      image:
+        "http://www.fardux.co.uk/images/default-source/fardux-product-images/fieldview-product71B51A5ABD51.jpg?sfvrsn=0",
+      description:
+        "You will understand the basics of using the field view tool within the engineering industry ",
     },
     {
       text: "Documentations",
-      image: leica2,
-      description: "learn the benefits of making money",
+      image:
+        "https://images.pexels.com/photos/8370966/pexels-photo-8370966.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      description:
+        "We would teach you how to write detailed and professional  engineering documentations, and also how to read them",
     },
     {
       text: "Levelling up",
       image: levellingUp,
-      description: "learn the benefits of making money",
+      description:
+        "We would teach you the basics of levelling up in construction engineering",
     },
   ];
   return (
