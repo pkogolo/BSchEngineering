@@ -16,6 +16,7 @@ import reinforcement3 from "../images/reinforcement-3.jpg";
 import surveying3 from "../images/surveying-3.jpg";
 import surveying2 from "../images/surveying-2.jpeg";
 import DropDowns from "../Components/DropDowns";
+import writing from "../images/writing.jpg";
 
 function Curriculum() {
   const image1 =
@@ -40,8 +41,7 @@ function Curriculum() {
   const data = [
     {
       setion: "headerSection",
-      image:
-        "https://images.unsplash.com/photo-1581141849291-1125c7b692b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=866&q=80",
+      image: writing,
       heading:
         "Our curriculum equips our students with top-notch skills in setting out engineering to be able to excel in today's industry.",
       caption:
@@ -77,7 +77,7 @@ function Curriculum() {
 
       <h1 className="w-full my-20 text-4xl text-center">What we teach</h1>
 
-      <div className=" grid-flow-row auto-rows-max">
+      {/* <div className=" grid-flow-row auto-rows-max">
 
         <div className="">
         <CarouselGrid
@@ -109,9 +109,9 @@ function Curriculum() {
           textArray={TextArray.slice(7)}
           small={true}
         />
-      </div>
+      </div> */}
       <div className=" ">
-        <Button text="Register for your next class" link={"/register"}/>
+        <Button text="Register for your next class" link={"/register"} />
       </div>
 
       <div className="flex w-full items-center justify-center">
