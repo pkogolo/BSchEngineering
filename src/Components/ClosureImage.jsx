@@ -1,5 +1,5 @@
 import React from "react";
-import closure from "../images/footerImage.jpg";
+import closure from "../images/levellingUp.jpg";
 
 function ClosureImage() {
   return (
