@@ -63,9 +63,9 @@ function Home() {
       setion: "headerSection",
       image: headerImage,
       heading:
-        "Become a setting out Engineer in the construction industry. Obtain a diploma certificate in weeks. Earn from £250/day as a starting salary. Join Buckingham School of Civil and Setting Out Engineering to reshape your career.",
+        "Become an effective setting-out Engineer in the construction industry. Obtain a diploma certificate in weeks. Earn from £250/day as a starting salary. Join Buckingham School of Civil and Setting Out Engineering to reshape your career.",
       caption:
-        "Join our academy to learn the easy way of becoming a professional in Rail, Building, Roads, Oil, and general Construction Industries as a setting out Engineer.",
+        "Join our academy to learn the easy ways of becoming a professional in Rail, Building, Roads, Oil, and general Construction Industries as a setting out Engineer.",
     },
   ];
 
